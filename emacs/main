@@ -10,7 +10,7 @@
 (autoload 'php-mode "php-mode" "PHP mode" t)
 
 (setq auto-mode-alist (append '(("\\.php$" . php-mode))
-auto-mode-alist))
+                              auto-mode-alist))
 
 
 ;; Load mode specific configuration. Symlinks don't work right now so
