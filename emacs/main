@@ -16,5 +16,5 @@
 ;; Load mode specific configuration. Symlinks don't work right now so
 ;; these files have to be in the right place..
 
-(load "~/rc/emacs/js2-conf")
-(load "~/rc/emacs/python-conf")
+(load "~/rc/emacs/js2-conf.el")
+(load "~/rc/emacs/python-conf.el")
