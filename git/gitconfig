@@ -1,6 +1,6 @@
 [user]
-	name = Kenshi Kawaguchi
-	email = kenshi@recurse.ca
+  name = Kenshi Kawaguchi
+  email = kenshi@recurse.ca
 
 [alias]
    ci = commit -a
