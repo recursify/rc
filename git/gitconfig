@@ -1,0 +1,17 @@
+[user]
+	name = Kenshi Kawaguchi
+	email = kenshi@recurse.ca
+
+[alias]
+   ci = commit -a
+   co = checkout
+   undo-commit = reset --soft HEAD^
+   up = pull --rebase
+   praise = blame
+   st = status
+
+[diff]
+    color = auto
+
+[status]
+    color = auto

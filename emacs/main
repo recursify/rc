@@ -1,0 +1,13 @@
+(add-to-list 'load-path "~/emacs/packages/prog-modes/")
+(autoload 'espresso-mode "espresso")
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
+(setq mac-command-modifier 'meta)
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(autoload 'php-mode "php-mode" "PHP mode" t)
+
+(setq auto-mode-alist (append '(("\\.php$" . php-mode))
+auto-mode-alist))
