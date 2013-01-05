@@ -36,3 +36,5 @@
                             monthname day " (" dayname ") ")
                      'face 'egoge-display-time)))
 (display-time-mode 1)
+
+(column-number-mode 1)
