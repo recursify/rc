@@ -19,7 +19,7 @@
 
 (load "~/rc/emacs/js2-conf.el")
 (load "~/rc/emacs/python-conf.el")
-(load "~/rc/emacs/remember-conf.el")
+;; (load "~/rc/emacs/remember-conf.el")
 (load "~/rc/emacs/yaml-conf.el")
 
 (defface egoge-display-time
