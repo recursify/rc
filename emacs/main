@@ -1,6 +1,7 @@
 (add-to-list 'load-path "~/emacs/packages/prog-modes/")
 
 (autoload 'espresso-mode "espresso")
+(load "highlight-chars")
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
