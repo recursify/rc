@@ -24,6 +24,7 @@
 (load "~/rc/emacs/python-conf.el")
 ;; (load "~/rc/emacs/remember-conf.el")
 (load "~/rc/emacs/yaml-conf.el")
+(load "~/rc/emacs/go-conf.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
