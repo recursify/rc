@@ -4,8 +4,6 @@
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
   )
 
-(add-to-list 'load-path "~/emacs/packages/prog-modes/")
-
 ;;(autoload 'espresso-mode "espresso")
 ;;(load "highlight-chars")
 
