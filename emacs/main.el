@@ -4,6 +4,11 @@
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
   )
 
+;;God, this is annoying
+;; http://stackoverflow.com/questions/29328960/
+;;       how-to-disable-auto-indentation-on-newline-in-js2-mode
+(electric-indent-mode -1)
+
 ;;(autoload 'espresso-mode "espresso")
 ;;(load "highlight-chars")
 
