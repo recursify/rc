@@ -7,4 +7,5 @@ Some symlinks will have to be created, such as:
 
 ```
 ln -s ~/rc/git/gitconfig ~/.gitconfig
+ln -s ~/rc/emacs/main.el ~/.emacs
 ```
