@@ -31,6 +31,7 @@
 
 (load "~/rc/emacs/js2-conf-basic.el")
 (load "~/rc/emacs/python-conf.el")
+(load "~/rc/emacs/ruby-conf.el")
 ;; (load "~/rc/emacs/remember-conf.el")
 (load "~/rc/emacs/yaml-conf.el")
 (load "~/rc/emacs/go-conf.el")
