@@ -34,6 +34,7 @@
 (load "~/rc/emacs/ruby-conf.el")
 (load "~/rc/emacs/yaml-conf.el")
 (load "~/rc/emacs/go-conf.el")
+(load "~/rc/emacs/c-conf.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
