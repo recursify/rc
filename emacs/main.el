@@ -36,6 +36,7 @@
 (load "~/rc/emacs/go-conf.el")
 (load "~/rc/emacs/c-conf.el")
 (load "~/rc/emacs/proto-conf.el")
+(load "~/rc/emacs/haskell-conf.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
