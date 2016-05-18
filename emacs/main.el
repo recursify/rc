@@ -4,6 +4,12 @@
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
   )
 
+;; Allow mouse scrolling from terminal
+;;(xterm-mouse-mode)
+;;(global-set-key (kbd "<mouse-4>") 'scroll-down-line)
+;;(global-set-key (kbd "<mouse-5>") 'scroll-up-line)
+
+
 ;;God, this is annoying
 ;; http://stackoverflow.com/questions/29328960/
 ;;       how-to-disable-auto-indentation-on-newline-in-js2-mode
@@ -37,6 +43,7 @@
 (load "~/rc/emacs/c-conf.el")
 (load "~/rc/emacs/proto-conf.el")
 (load "~/rc/emacs/haskell-conf.el")
+(load "~/rc/emacs/coffee-conf.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
