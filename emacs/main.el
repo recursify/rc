@@ -44,6 +44,8 @@
 (load "~/rc/emacs/proto-conf.el")
 (load "~/rc/emacs/haskell-conf.el")
 (load "~/rc/emacs/coffee-conf.el")
+(load "~/rc/emacs/helm-conf.el")
+(load "~/rc/emacs/projectile-conf.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
