@@ -2,3 +2,4 @@
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 (setq projectile-enable-caching t)
+(global-set-key (kbd "C-c p s a") 'helm-projectile-ack)

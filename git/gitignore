@@ -5,3 +5,6 @@
 
 # Python files
 *.pyc
+
+# my per-projectile config
+.projectile
