@@ -47,6 +47,7 @@
 (load "~/rc/emacs/helm-conf.el")
 (load "~/rc/emacs/projectile-conf.el")
 (load "~/rc/emacs/tide-conf.el")
+(load "~/rc/emacs/clipboard.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
@@ -73,7 +74,7 @@
  '(js2-bounce-indent-p t)
  '(package-selected-packages
    (quote
-    (yaml-mode typescript-mode markdown-mode js2-mode helm-projectile haskell-mode column-marker coffee-mode ack))))
+    (company-c-headers tide flycheck company jinja2-mode yaml-mode typescript-mode markdown-mode js2-mode helm-projectile haskell-mode column-marker coffee-mode ack))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
