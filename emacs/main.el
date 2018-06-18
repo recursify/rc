@@ -47,7 +47,7 @@
 (load "~/rc/emacs/helm-conf.el")
 (load "~/rc/emacs/projectile-conf.el")
 (load "~/rc/emacs/tide-conf.el")
-(load "~/rc/emacs/clipboard.el")
+;; (load "~/rc/emacs/clipboard.el")
 
 (defface egoge-display-time
   '((((type x w32 mac))
@@ -70,11 +70,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(js-indent-level 2)
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p t)
  '(package-selected-packages
    (quote
-    (company-c-headers tide flycheck company jinja2-mode yaml-mode typescript-mode markdown-mode js2-mode helm-projectile haskell-mode column-marker coffee-mode ack))))
+    (helm-ack haml-mode go-mode pug-mode company-c-headers tide flycheck company jinja2-mode yaml-mode typescript-mode markdown-mode js2-mode helm-projectile haskell-mode column-marker coffee-mode ack))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

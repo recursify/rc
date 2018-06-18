@@ -4,6 +4,11 @@
 (add-hook 'js2-mode-hook '(lambda ()
   (local-set-key (kbd "RET") 'newline-and-indent)))
 
+
+(custom-set-variables
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p t))
+
 (setq js2-highlight-level 1)
 (setq js2-cleanup-whitespace 1
       js2-mode-show-parse-errors nil
@@ -13,7 +18,3 @@
 ;;      espresso-indent-level 2
 ;;      indent-tabs-mode nil
 ;;      c-basic-offset 2)
-
-(custom-set-variables
- '(js2-basic-offset 2)
- '(js2-bounce-indent-p t))
