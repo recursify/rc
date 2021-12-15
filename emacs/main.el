@@ -25,8 +25,6 @@
 (load "~/rc/emacs/go-conf.el")
 (load "~/rc/emacs/c-conf.el")
 (load "~/rc/emacs/proto-conf.el")
-(load "~/rc/emacs/haskell-conf.el")
-(load "~/rc/emacs/coffee-conf.el")
 (load "~/rc/emacs/helm-conf.el")
 (load "~/rc/emacs/projectile-conf.el")
 (load "~/rc/emacs/tide-conf.el")
